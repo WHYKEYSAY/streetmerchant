@@ -13,301 +13,127 @@ export const AmazonCa: Store = {
       submit: 'button[type="submit"]',
     },
     inStock: {
-      container: '#desktop_buybox',
-      text: ['add to cart'],
+      container: '#availability .a-declarative',
+      text: ['in stock'],
     },
     maxPrice: {
       container: '.a-color-price',
     },
     outOfStock: {
-      container: '.a-color-price',
-      text: ['currently unavailable.'],
+      container: '#availability .a-declarative',
+      text: ['currently unavailable'],
     },
   },
   links: [
     {
       brand: 'test:brand',
-      cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B07PBLD2MX&Quantity.1=1',
       model: 'test:model',
       series: 'test:series',
-      url: 'https://www.amazon.ca/dp/B07PBLD2MX',
-    },
-    {
-      brand: 'msi',
-      cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08KWN2LZG&Quantity.1=1',
-      model: 'gaming x trio',
-      series: '3070',
-      url: 'https://www.amazon.ca/dp/B08KWN2LZG',
-    },
-    {
-      brand: 'msi',
-      cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08KWLMZV4&Quantity.1=1',
-      model: 'ventus 3x oc',
-      series: '3070',
-      url: 'https://www.amazon.ca/dp/B08KWLMZV4',
-    },
-    {
-      brand: 'evga',
-      cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08LW46GH2&Quantity.1=1',
-      model: 'xc3',
-      series: '3070',
-      url: 'https://www.amazon.ca/dp/B08LW46GH2',
-    },
-    {
-      brand: 'evga',
-      cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08L8L71SM&Quantity.1=1',
-      model: 'xc3 ultra',
-      series: '3070',
-      url: 'https://www.amazon.ca/dp/B08L8L71SM',
-    },
-    {
-      brand: 'evga',
-      cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08L8L9TCZ&Quantity.1=1',
-      model: 'ftw3 ultra',
-      series: '3070',
-      url: 'https://www.amazon.ca/dp/B08L8L9TCZ',
-    },
-    {
-      brand: 'msi',
-      cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08HR7SV3M&Quantity.1=1',
-      model: 'gaming x trio',
-      series: '3080',
-      url: 'https://www.amazon.ca/dp/B08HR7SV3M',
-    },
-    {
-      brand: 'msi',
-      cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08HR5SXPS&Quantity.1=1',
-      model: 'ventus 3x oc',
-      series: '3080',
-      url: 'https://www.amazon.ca/dp/B08HR5SXPS',
-    },
-    {
-      brand: 'evga',
-      cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08HR3DPGW&Quantity.1=1',
-      model: 'ftw3',
-      series: '3080',
-      url: 'https://www.amazon.ca/dp/B08HR3DPGW',
-    },
-    {
-      brand: 'evga',
-      cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08HR3Y5GQ&Quantity.1=1',
-      model: 'ftw3 ultra',
-      series: '3080',
-      url: 'https://www.amazon.ca/dp/B08HR3Y5GQ',
-    },
-    {
-      brand: 'evga',
-      cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08HR55YB5&Quantity.1=1',
-      model: 'xc3 ultra',
-      series: '3080',
-      url: 'https://www.amazon.ca/dp/B08HR55YB5',
-    },
-    {
-      brand: 'evga',
-      cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08HR4RJ3Q&Quantity.1=1',
-      model: 'xc3',
-      series: '3080',
-      url: 'https://www.amazon.ca/dp/B08HR4RJ3Q',
-    },
-    {
-      brand: 'evga',
-      cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08HR6FMF3&Quantity.1=1',
-      model: 'xc3 black',
-      series: '3080',
-      url: 'https://www.amazon.ca/dp/B08HR6FMF3',
-    },
-    {
-      brand: 'gigabyte',
-      cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08HJTH61J&Quantity.1=1',
-      model: 'gaming oc',
-      series: '3080',
-      url: 'https://www.amazon.ca/dp/B08HJTH61J',
-    },
-    {
-      brand: 'gigabyte',
-      cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08HJS2JLJ&Quantity.1=1',
-      model: 'eagle oc',
-      series: '3080',
-      url: 'https://www.amazon.ca/dp/B08HJS2JLJ',
+      url: 'https://www.newegg.ca/western-digital-blue-500gb/p/N82E16820250087?Item=N82E16820250087',
     },
     {
       brand: 'asus',
       cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08HHDP9DW&Quantity.1=1',
-      model: 'tuf',
-      series: '3080',
-      url: 'https://www.amazon.ca/dp/B08HHDP9DW',
+        'https://secure.newegg.ca/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16814126750',
+      model: 'astral',
+      series: '5090',
+      url: 'https://www.newegg.ca/asus-rog-astral-rog-astral-rtx5090-32g-gaming-nvidia-geforce-rtx-5090-32gb-gddr7/p/N82E16814126750?Item=N82E16814126750',
     },
     {
       brand: 'asus',
       cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08HH5WF97&Quantity.1=1',
-      model: 'tuf oc',
-      series: '3080',
-      url: 'https://www.amazon.ca/dp/B08HH5WF97',
+        'https://secure.newegg.ca/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16814126751',
+      model: 'astral oc',
+      series: '5090',
+      url: 'https://www.newegg.ca/asus-rog-astral-rog-astral-rtx5090-o32g-gaming-nvidia-geforce-rtx-5090-32gb-gddr7/p/N82E16814126751?Item=N82E16814126751',
+    },
+    {
+      brand: 'msi',
+      cartUrl:
+        'https://secure.newegg.ca/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16814137915',
+      model: 'suprim',
+      series: '5090',
+      url: 'https://www.newegg.ca/msi-rtx-5090-32g-suprim-soc-nvidia-geforce-rtx-5090-32gb-gddr7/p/N82E16814137915?Item=N82E16814137915',
+    },
+    {
+      brand: 'msi',
+      cartUrl:
+        'https://secure.newegg.ca/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16814137917',
+      model: 'vanguard launch',
+      series: '5090',
+      url: 'https://www.newegg.ca/msi-rtx-5090-32g-vanguard-soc-launch-edition-nvidia-geforce-rtx-5090-32gb-gddr7/p/N82E16814137917?Item=N82E16814137917',
+    },
+    {
+      brand: 'msi',
+      cartUrl:
+        'https://secure.newegg.ca/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16814137918',
+      model: 'vanguard',
+      series: '5090',
+      url: 'https://www.newegg.ca/msi-rtx-5090-32g-vanguard-soc-nvidia-geforce-rtx-5090-32gb-gddr7/p/N82E16814137918?Item=N82E16814137918',
     },
     {
       brand: 'zotac',
       cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08HJNKT3P&Quantity.1=1',
-      model: 'trinity',
-      series: '3080',
-      url: 'https://www.amazon.ca/dp/B08HJNKT3P',
+        'https://secure.newegg.ca/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16814500593',
+      model: 'amp extreme',
+      series: '5090',
+      url: 'https://www.newegg.ca/zotac-amp-extreme-infinity-zt-b50900b-10p-nvidia-geforce-rtx-5090-32gb-gddr7/p/N82E16814500593?Item=N82E16814500593',
     },
     {
-      brand: 'zotac',
+      brand: 'asus',
       cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08HJQ182D&Quantity.1=1',
-      model: 'trinity',
-      series: '3090',
-      url: 'https://www.amazon.ca/dp/B08HJQ182D',
+        'https://secure.newegg.ca/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16814126752',
+      model: 'tuf oc',
+      series: '5090',
+      url: 'https://www.newegg.ca/p/N82E16814126752?Item=N82E16814126752',
+    },
+    {
+      brand: 'asus',
+      cartUrl:
+        'https://secure.newegg.ca/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16814126753',
+      model: 'tuf',
+      series: '5090',
+      url: 'https://www.newegg.ca/p/N82E16814126753?Item=N82E16814126753',
     },
     {
       brand: 'msi',
       cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08HR9D2JS&Quantity.1=1',
+        'https://secure.newegg.ca/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16814137919',
+      model: 'gaming trio',
+      series: '5090',
+      url: 'https://www.newegg.ca/msi-rtx-5090-32g-gaming-trio-oc-nvidia-geforce-rtx-5090-32gb-gddr7/p/N82E16814137919?Item=N82E16814137919',
+    },
+    {
+      brand: 'msi',
+      cartUrl:
+        'https://secure.newegg.ca/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16814137920',
       model: 'ventus 3x oc',
-      series: '3090',
-      url: 'https://www.amazon.ca/dp/B08HR9D2JS',
+      series: '5090',
+      url: 'https://www.newegg.ca/msi-rtx-5090-32g-ventus-3x-oc-nvidia-geforce-rtx-5090-32gb-gddr7/p/N82E16814137920?Item=N82E16814137920',
     },
     {
-      brand: 'gigabyte',
+      brand: 'nvidia',
       cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08HJRF2CN&Quantity.1=1',
-      model: 'gaming oc',
-      series: '3090',
-      url: 'https://www.amazon.ca/dp/B08HJRF2CN',
+        'https://secure.newegg.ca/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16819113841',
+      model: 'founders edition',
+      series: '5090',
+      url: 'https://www.bestbuy.com/site/nvidia-geforce-rtx-5090-32gb-gddr7-graphics-card-dark-gun-metal/6614151.p?skuId=6614151',
     },
     {
-      brand: 'gigabyte',
+      brand: 'msi',
       cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08HJPDJTY&Quantity.1=1',
-      model: 'eagle oc',
-      series: '3090',
-      url: 'https://www.amazon.ca/dp/B08HJPDJTY',
-    },
-    {
-      brand: 'asus',
-      cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08HJGNJ81&Quantity.1=1',
-      model: 'tuf',
-      series: '3090',
-      url: 'https://www.amazon.ca/dp/B08HJGNJ81',
-    },
-    {
-      brand: 'asus',
-      cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08HJLLF7G&Quantity.1=1',
-      model: 'tuf oc',
-      series: '3090',
-      url: 'https://www.amazon.ca/dp/B08HJLLF7G',
+        'https://secure.newegg.ca/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16814137916',
+      model: 'suprim lc',
+      series: '5090',
+      url: 'https://www.newegg.ca/msi-rtx-5090-32g-suprim-liquid-soc-nvidia-geforce-rtx-5090-32gb-gddr7/p/N82E16814137916?Item=N82E16814137916',
     },
     {
       brand: 'amd',
       cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08166SLDF&Quantity.1=1',
-      model: '5600x',
-      series: 'ryzen5600',
-      url: 'https://www.amazon.ca/dp/B08166SLDF',
-    },
-    {
-      brand: 'amd',
-      cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0815XFSGK&Quantity.1=1',
-      model: '5800x',
-      series: 'ryzen5800',
-      url: 'https://www.amazon.ca/dp/B0815XFSGK',
-    },
-    {
-      brand: 'amd',
-      cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08164VTWH&Quantity.1=1',
-      model: '5900x',
-      series: 'ryzen5900',
-      url: 'https://www.amazon.ca/dp/B08164VTWH',
-    },
-    {
-      brand: 'amd',
-      cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0815Y8J9N&Quantity.1=1',
-      model: '5950x',
-      series: 'ryzen5950',
-      url: 'https://www.amazon.ca/dp/B0815Y8J9N',
-    },
-    {
-      brand: 'sony',
-      cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08GSC5D9G&Quantity.1=1',
-      model: 'ps5 console',
-      series: 'sonyps5c',
-      url: 'https://www.amazon.ca/dp/B08GSC5D9G',
-    },
-    {
-      brand: 'sony',
-      cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08GS1N24H&Quantity.1=1',
-      model: 'ps5 digital',
-      series: 'sonyps5de',
-      url: 'https://www.amazon.ca/dp/B08GS1N24H',
-    },
-    {
-      brand: 'microsoft',
-      cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08H75RTZ8&Quantity.1=1',
-      labels: {
-        inStock: {
-          container: '#productTitle',
-          text: ['Xbox Series X'],
-        },
-      },
-      model: 'xbox series x',
-      series: 'xboxsx',
-      url: 'https://www.amazon.ca/dp/B08H75RTZ8',
-    },
-    {
-      brand: 'microsoft',
-      cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08G9J44ZN&Quantity.1=1',
-      labels: {
-        inStock: {
-          container: '#productTitle',
-          text: ['Xbox Series S'],
-        },
-      },
-      model: 'xbox series s',
-      series: 'xboxss',
-      url: 'https://www.amazon.ca/dp/B08G9J44ZN',
-    },
-    {
-      brand: 'xfx',
-      cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08NX14LV1&Quantity.1=1',
-      model: 'merc',
-      series: 'rx6800xt',
-      url: 'https://www.amazon.ca/dp/B08NX14LV1',
-    },
-    {
-      brand: 'sapphire',
-      cartUrl:
-        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08PQ585CX&Quantity.1=1',
-      model: 'pulse',
-      series: 'rx6800xt',
-      url: 'https://www.amazon.ca/dp/B08PQ585CX',
+        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0D6NNRBGP&Quantity.1=1',
+      model: '9950x',
+      series: 'ryzen9950x',
+      url: 'https://www.amazon.ca/dp/B0D6NNRBGP',
     },
   ],
   name: 'amazon-ca',

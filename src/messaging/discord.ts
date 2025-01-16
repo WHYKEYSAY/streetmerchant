@@ -62,7 +62,7 @@ export function sendDiscordMessage(link: Link, store: Store) {
         const notifyIndex = notifyKeys.indexOf(link.series);
         if (notifyIndex !== -1) {
           notifyText = notifyText.concat(
-            Object.values(notifyGroupSeries)[notifyIndex]
+            (Object.values(notifyGroupSeries)[notifyIndex] as unknown as string[])
           );
         }
 

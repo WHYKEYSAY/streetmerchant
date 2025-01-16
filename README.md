@@ -21,8 +21,11 @@ First and foremost, this service _will not_ automatically buy for you.
 streetmerchant runs on Node.js:
 
 ```shell
-git clone https://github.com/jef/streetmerchant.git
+git clone https://github.com/WHYKEYSAY/streetmerchant.git
+export STORES=amazon-ca,bestbuy-ca,newegg-ca,canadacomputers,amazon,memoryexpress
 cd streetmerchant && npm i && npm run start
 ```
 
 For more information and customization, visit [jef.buzz/streetmerchant/getting-started](https://jef.buzz/streetmerchant/getting-started).
+# TO DO
+update the 5090 card url in stores when available for amazon,newegg, bestbuy,canadacomputers, memory express.
