@@ -408,7 +408,14 @@ const store = {
     'ryzen9950x',
     'ryzen9950x3d',
   ]),
-  stores: envOrArray(process.env.STORES, ['amazon-ca', 'bestbuy-ca', 'newegg-ca', 'canadacomputers','amazon']).map(entry => {
+  stores: envOrArray(process.env.STORES, [
+    'amazon-ca',
+    'bestbuy-ca',
+    'newegg-ca',
+    'canadacomputers',
+    'amazon',
+    'memoryexpress',
+  ]).map(entry => {
     const [name, minPageSleep, maxPageSleep] = entry.match(/[^:]+/g) ?? [];
 
     let proxyList = loadProxyList(name as string);
