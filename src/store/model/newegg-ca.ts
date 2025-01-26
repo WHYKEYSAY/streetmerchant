@@ -38,7 +38,7 @@ export const NeweggCa: Store = {
       brand: 'asus',
       model: 'astral',
       series: '5090',
-      url: 'https://www.newegg.ca/asus-rog-astral-rog-astral-rtx5090-32g-gaming-nvidia-geforce-rtx-5090-32gb-gddr7/p/N82E16814126750?Item=N82E16814126750',
+      url: 'https://www.newegg.ca/p/N82E16814126752',
     },
     {
       brand: 'asus',
