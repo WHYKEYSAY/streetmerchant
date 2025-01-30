@@ -32,6 +32,14 @@ export const AmazonCa: Store = {
       url: 'https://www.newegg.ca/western-digital-blue-500gb/p/N82E16820250087?Item=N82E16820250087',
     },
     {
+      brand: 'nvidia',
+      cartUrl:
+        'https://secure.newegg.ca/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16819113841',
+      model: 'founders edition',
+      series: '5090',
+      url: 'https://www.bestbuy.com/site/nvidia-geforce-rtx-5090-32gb-gddr7-graphics-card-dark-gun-metal/6614151.p?skuId=6614151',
+    },
+    {
       brand: 'asus',
       cartUrl:
         'https://secure.newegg.ca/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16814126750',

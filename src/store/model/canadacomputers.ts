@@ -12,25 +12,37 @@ export const CanadaComputers: Store = {
       euroFormat: false,
     },
   },
-  links: [
+  links: [/*
     {
-      brand: 'test:brand',
-      model: 'test:model',
-      series: 'test:series',
-      url: 'https://www.newegg.ca/western-digital-blue-500gb/p/N82E16820250087?Item=N82E16820250087',
+      brand: 'nvidia',
+      model: 'founders edition',
+      series: '5090',
+      url: 'https://www.bestbuy.com/site/nvidia-geforce-rtx-5090-32gb-gddr7-graphics-card-dark-gun-metal/6614151.p?skuId=6614151',
+    },*/
+    {
+      brand: 'gigabyte',
+      model: 'aorus master ice',
+      series: '5090',
+      url: 'https://www.canadacomputers.com/en/powered-by-nvidia/268187/gigabyte-aorus-geforce-rtx-5090-master-ice-32g-graphics-card-aorus-geforce-rtx-5090-master-ice-32g.html',
     },
     {
-      brand: 'asus',
-      model: 'astral',
+      brand: 'gigabyte',
+      model: 'aorus master',
       series: '5090',
-      url: 'https://www.newegg.ca/asus-rog-astral-rog-astral-rtx5090-32g-gaming-nvidia-geforce-rtx-5090-32gb-gddr7/p/N82E16814126750?Item=N82E16814126750',
+      url: 'https://www.canadacomputers.com/en/powered-by-nvidia/268188/gigabyte-aorus-geforce-rtx-5090-master-32g-graphics-card-aorus-geforce-rtx-5090-master-32g.html',
     },
     {
       brand: 'asus',
       model: 'astral oc',
       series: '5090',
-      url: 'https://www.newegg.ca/asus-rog-astral-rog-astral-rtx5090-o32g-gaming-nvidia-geforce-rtx-5090-32gb-gddr7/p/N82E16814126751?Item=N82E16814126751',
+      url: 'https://www.canadacomputers.com/en/powered-by-nvidia/268256/asus-rog-astral-geforce-rtx-5090-oc-rog-astral-rtx5090-o32g-gaming-rog-astral-rtx5090-o32g-gaming.html',
     },
+    {
+      brand: 'asus',
+      model: 'astral',
+      series: '5090',
+      url: 'https://www.canadacomputers.com/en/powered-by-nvidia/268257/asus-rog-astral-geforce-rtx-5090-rog-astral-rtx5090-32g-gaming-rog-astral-rtx5090-32g-gaming.html',
+    },/*
     {
       brand: 'msi',
       model: 'suprim',
@@ -54,19 +66,19 @@ export const CanadaComputers: Store = {
       model: 'amp extreme',
       series: '5090',
       url: 'https://www.newegg.ca/zotac-amp-extreme-infinity-zt-b50900b-10p-nvidia-geforce-rtx-5090-32gb-gddr7/p/N82E16814500593?Item=N82E16814500593',
-    },
+    },*/
     {
       brand: 'asus',
       model: 'tuf oc',
       series: '5090',
-      url: 'https://www.newegg.ca/p/N82E16814126752?Item=N82E16814126752',
+      url: 'https://www.canadacomputers.com/en/powered-by-nvidia/268261/asus-tuf-geforce-rtx-5090-oc-tuf-rtx5090-o32g-gaming-tuf-rtx5090-o32g-gaming.html',
     },
     {
       brand: 'asus',
       model: 'tuf',
       series: '5090',
-      url: 'https://www.newegg.ca/p/N82E16814126753?Item=N82E16814126753',
-    },
+      url: 'https://www.canadacomputers.com/en/powered-by-nvidia/268262/asus-tuf-geforce-rtx-5090-tuf-rtx5090-32g-gaming-tuf-rtx5090-32g-gaming.html',
+    },/*
     {
       brand: 'msi',
       model: 'gaming trio',
@@ -80,23 +92,11 @@ export const CanadaComputers: Store = {
       url: 'https://www.newegg.ca/msi-rtx-5090-32g-ventus-3x-oc-nvidia-geforce-rtx-5090-32gb-gddr7/p/N82E16814137920?Item=N82E16814137920',
     },
     {
-      brand: 'nvidia',
-      model: 'founders edition',
-      series: '5090',
-      url: 'https://www.bestbuy.com/site/nvidia-geforce-rtx-5090-32gb-gddr7-graphics-card-dark-gun-metal/6614151.p?skuId=6614151',
-    },
-    {
       brand: 'msi',
       model: 'suprim lc',
       series: '5090',
       url: 'https://www.newegg.ca/msi-rtx-5090-32g-suprim-liquid-soc-nvidia-geforce-rtx-5090-32gb-gddr7/p/N82E16814137916?Item=N82E16814137916',
-    },
-    {
-      brand: 'amd',
-      model: '9950x',
-      series: 'ryzen9950x',
-      url: 'https://www.canadacomputers.com/product_info.php?cPath=43_557_559&item_id=258538&language=en',
-    },
+    },*/
   ],
   name: 'canadacomputers',
   waitUntil: 'domcontentloaded',

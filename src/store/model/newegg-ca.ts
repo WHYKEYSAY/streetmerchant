@@ -27,25 +27,25 @@ export const NeweggCa: Store = {
       },
     ],
   },
-  links: [
+  links: [/*
     {
-      brand: 'test:brand',
-      model: 'test:model',
-      series: 'test:series',
-      url: 'https://www.newegg.ca/western-digital-blue-500gb/p/N82E16820250087?Item=N82E16820250087',
+      brand: 'nvidia',
+      model: 'founders edition',
+      series: '5090',
+      url: 'https://www.bestbuy.com/site/nvidia-geforce-rtx-5090-32gb-gddr7-graphics-card-dark-gun-metal/6614151.p?skuId=6614151',
     },
     {
       brand: 'asus',
       model: 'astral',
       series: '5090',
-      url: 'https://www.newegg.ca/p/N82E16814126752',
-    },
+      url: 'https://www.newegg.ca/asus-rog-astral-rog-astral-rtx5090-32g-gaming-nvidia-geforce-rtx-5090-32gb-gddr7/p/N82E16814126750?Item=N82E16814126750',
+    },*/
     {
       brand: 'asus',
       model: 'astral oc',
       series: '5090',
       url: 'https://www.newegg.ca/asus-rog-astral-rog-astral-rtx5090-o32g-gaming-nvidia-geforce-rtx-5090-32gb-gddr7/p/N82E16814126751?Item=N82E16814126751',
-    },
+    },/*
     {
       brand: 'msi',
       model: 'suprim',
@@ -75,13 +75,13 @@ export const NeweggCa: Store = {
       model: 'tuf oc',
       series: '5090',
       url: 'https://www.newegg.ca/p/N82E16814126752?Item=N82E16814126752',
-    },
+    },*/
     {
       brand: 'asus',
       model: 'tuf',
       series: '5090',
       url: 'https://www.newegg.ca/p/N82E16814126753?Item=N82E16814126753',
-    },
+    },/*
     {
       brand: 'msi',
       model: 'gaming trio',
@@ -95,23 +95,17 @@ export const NeweggCa: Store = {
       url: 'https://www.newegg.ca/msi-rtx-5090-32g-ventus-3x-oc-nvidia-geforce-rtx-5090-32gb-gddr7/p/N82E16814137920?Item=N82E16814137920',
     },
     {
-      brand: 'nvidia',
-      model: 'founders edition',
-      series: '5090',
-      url: 'https://www.bestbuy.com/site/nvidia-geforce-rtx-5090-32gb-gddr7-graphics-card-dark-gun-metal/6614151.p?skuId=6614151',
-    },
-    {
       brand: 'msi',
       model: 'suprim lc',
       series: '5090',
       url: 'https://www.newegg.ca/msi-rtx-5090-32g-suprim-liquid-soc-nvidia-geforce-rtx-5090-32gb-gddr7/p/N82E16814137916?Item=N82E16814137916',
-    },
+    },*//*
     {
       brand: 'amd',
       model: '9950x',
       series: 'ryzen9950x',
       url: 'https://www.newegg.ca/amd-ryzen-9-9950x/p/N82E16819113841',
-    },
+    },*/
   ],
   name: 'newegg-ca',
   realTimeInventoryLookup: async (itemNumber: string) => {

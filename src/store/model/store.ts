@@ -293,6 +293,7 @@ export type Model =
   | 'strix oc lc'
   | 'suprim liquid x'
   | 'swft'
+  | 'solid'
   ;
 
 export type Link = {

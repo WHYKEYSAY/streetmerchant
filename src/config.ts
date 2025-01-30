@@ -403,10 +403,7 @@ const store = {
     };
   }),
   showOnlySeries: envOrArray(process.env.SHOW_ONLY_SERIES, [
-    '5080',
     '5090',
-    'ryzen9950x',
-    'ryzen9950x3d',
   ]),
   stores: envOrArray(process.env.STORES, ['amazon-ca', 'bestbuy-ca', 'newegg-ca', 'canadacomputers','amazon']).map(entry => {
     const [name, minPageSleep, maxPageSleep] = entry.match(/[^:]+/g) ?? [];

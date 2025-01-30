@@ -22,7 +22,8 @@ streetmerchant runs on Node.js:
 
 ```shell
 git clone https://github.com/WHYKEYSAY/streetmerchant.git
-export STORES=amazon-ca,bestbuy-ca,newegg-ca,canadacomputers,amazon,memoryexpress
+export STORES=bestbuy-ca,newegg-ca,canadacomputers,memoryexpress
+export SERIES=5090, 
 cd streetmerchant && npm i && npm run start
 ```
 
