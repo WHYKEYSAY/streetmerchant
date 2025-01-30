@@ -405,7 +405,14 @@ const store = {
   showOnlySeries: envOrArray(process.env.SHOW_ONLY_SERIES, [
     '5090',
   ]),
-  stores: envOrArray(process.env.STORES, ['amazon-ca', 'bestbuy-ca', 'newegg-ca', 'canadacomputers','amazon']).map(entry => {
+  stores: envOrArray(process.env.STORES, [
+    'amazon-ca',
+    'bestbuy-ca',
+    'newegg-ca',
+    'canadacomputers',
+    'amazon',
+    'memoryexpress',
+  ]).map(entry => {
     const [name, minPageSleep, maxPageSleep] = entry.match(/[^:]+/g) ?? [];
 
     let proxyList = loadProxyList(name as string);
